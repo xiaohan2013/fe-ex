@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lazyload</title>
+    <script type="text/javascript" src="../../loader/lazyload.js"></script>
+</head>
+<body>
+    
+
+    <div id="box" style="height: 9000px;"></div>
+
+    <script type="text/javascript">
+        var loader = new Lazyload(function(){ console.log("abcd") }, document.getElementById('box'));
+    </script>
+
+</body>
+</html>
