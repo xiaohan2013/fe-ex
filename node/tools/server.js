@@ -3,9 +3,6 @@ var http = require('http');
 // debugger
 
 
-
-
-
 const server = http.createServer(function(req, res) {
     res.setHeader('Content-Type', 'text/html');
     res.setHeader('X-Foo', 'bar');
