@@ -10,7 +10,7 @@ Typesciprt内容点
 - [泛型](./demo_06.ts)
 - [枚举](./demo_07.ts)
 - [类型推论](./demo_08.ts)
-- [类型兼容性](./demo_09.ts)
+- [类型兼容性](./demo_08.ts)
 - [高级类型](./demo_09.ts)
 - [Symbols](./demo_09.ts)
 - [迭代器和生成器](./demo_09.ts)

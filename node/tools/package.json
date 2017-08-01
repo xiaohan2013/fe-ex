@@ -1,0 +1,9 @@
+{
+    "name":"webpack_tools",
+    "version":"1.0.0",
+    "scripts":{
+        "build":"node --version",
+        "dev":"node debug server.js",
+        "test":""
+    }
+}
