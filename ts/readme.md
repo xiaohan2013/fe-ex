@@ -1,6 +1,10 @@
 Typesciprt内容点
 -----
 
+### 版本
+> v2.4.2
+
+
 ### 基本用法
 - [基础类型](./demo_01.ts)
 - [变量声明](./demo_02.ts)
@@ -14,15 +18,15 @@ Typesciprt内容点
 - [高级类型](./demo_09.ts)
 - [Symbols](./demo_10.ts)
 - [迭代器和生成器](./demo_11.ts)
-- [模块](./demo_09.ts)
-- [命名空间](./demo_09.ts)
-- [命名空间和模块](./demo_09.ts)
-- [模块的解析](./demo_09.ts)
-- [声明合并](./demo_09.ts)
-- [JSX](./demo_09.ts)
-- [装饰器](./demo_09.ts)
-- [Mixins](./demo_09.ts)
-- [三斜线指令](./demo_09.ts)
+- [模块](./demo_12.ts)
+- [命名空间](./demo_13.ts)
+- [命名空间和模块](./demo_14.ts)
+- [模块的解析](./demo_15.ts)
+- [声明合并](./demo_16.ts)
+- [JSX](./demo_17.ts)
+- [装饰器](./demo_18.ts)
+- [Mixins](./demo_19.ts)
+- [三斜线指令](./demo_20.ts)
 
 
 
