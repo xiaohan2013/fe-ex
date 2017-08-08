@@ -1,0 +1,74 @@
+/* 基准字号 12px => 62.5% => 10px*/
+
+html {
+    font-size: 62.5%;
+}
+
+
+/* 调整字号 1rem => 10px => 1.6rem => 16px*/
+
+body {
+    /* =16px */
+    font-size: 1.6rem;
+}
+
+
+/* 文字排版 */
+
+
+/* 1、字体 2、元素基本样式  */
+
+
+/* 
+Segoe UI - Windows UI 字体（从 Windows Vista 开始使用）；
+Helvetica Neue 是 iOS7 及 OSX 10.10 UI 字体（在部分文字垂直居中的场景有一些小问题，暂时先使用 Lucida Grande）；
+有些 Windows 用户安装了丽黑字体，丽黑字体在 Windows 上渲染出来很模糊，所以把微软雅黑放在苹果丽黑之前；
+FreeSans - 包括 Ubuntu 之类的 Linux 分发版包含的字体。 
+*/
+
+body {
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+}
+
+
+/* Webkit 反锯齿 */
+
+
+/* Apple System，Helvetica Neue，Helvetica，Nimbus Sans L，Arial，Liberation Sans，PingFang，冬青黑，思源黑体，微软雅黑，文泉驿微米黑，文泉驿正黑，华文黑体，中易黑体，文泉驿点阵正黑 */
+
+
+/* font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif; */
+
+.font-hei {
+    font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+}
+
+.font-kai {
+    font-family: Baskerville, Georgia, "Liberation Serif", "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif;
+}
+
+
+/* Baskerville，Georgia，Liberation Serif，Kaiti SC，华文楷体，AR PL UKai，文鼎ＰＬ简中楷，楷体，標楷體，全字库正楷体 */
+
+
+/* font-family: Baskerville, Georgia, "Liberation Serif", "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif; */
+
+.font-song {
+    font-family: Georgia, "Nimbus Roman No9 L", "Songti SC", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, serif;
+}
+
+
+/* Georgia，Nimbus Roman No9，Songti SC，华文宋体，AR PL New Sung，文鼎ＰＬ简报宋，新宋体，中易宋体，全字库正宋体，文泉驿点阵宋，AR PL UMing，新细明体，细明体 */
+
+
+/* font-family: Georgia, "Nimbus Roman No9 L", "Songti SC", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, serif; */
+
+.font-fang-song {
+    font-family: Baskerville, "Times New Roman", "Liberation Serif", STFangsong, FangSong, FangSong_GB2312, "CWTEX\-F", serif;
+}
+
+
+/* Baskerville，Times New Roman，Liberation Serif，华文仿宋，仿宋，CWTEX仿宋体 */
+
+
+/* font-family: Baskerville, "Times New Roman", "Liberation Serif", STFangsong, FangSong, FangSong_GB2312, "CWTEX\-F", serif; */
