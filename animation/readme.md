@@ -26,6 +26,8 @@ textillate
 kute.js
 snabbt.js
 
+### Javascript library to create physics-based animations 
+https://github.com/michaelvillar/dynamics.js#usage
 
 
 ## 缓动库
