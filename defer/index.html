@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Defer</title>
+</head>
+<body>
+    <!-- <script type="text/javascript" src="index.js"></script> -->
+
+<!--     <script type="text/javascript">
+        var d = new Deferred()
+
+        d.addCallback(function(e){
+            console.log(e)
+            return 4
+        })
+        .addBoth(function(a){ console.log(a); throw "报错" }, function(b){ console.log("xxx"); return "xxx"})
+        .addBoth(function(a){ console.log(a); return "正常"}, function(b){ console.log(b+"!"); return "出错"})
+        .addBoth(function(a){ console.log(a + "恢复正常"); return '正常2'}, function(b){ console.log(b+"继续出错"); return "出错2"})
+
+        d.callback(3)
+    </script> -->
+
+    <script type="text/javascript" src="jsdeferred.js"></script>
+    <script type="text/javascript">
+        var scriptElem = document.createElement('script');
+        scriptElem.type = 'text/javascript';
+        scriptElem.src="index.js"
+        scriptElem.onerror = function(){
+            console.log("===============onerror")
+        }
+        scriptElem.onload = function(){
+            console.log("===============onload")
+        }
+        document.body.appendChild(scriptElem)
+
+        var imgElem = new Image;
+        imgElem.src = 'data:image/png,' + Math.random();
+        imgElem.onerror = function(){
+            console.log("image..........onerror")
+        }
+        imgElem.onload = function(){
+            console.log("image........onload")
+        }
+        imgElem.onreadystatechange = function(){
+            console.log("Image.............onreadystatechange")
+        }
+
+        var d = new Deferred();
+        d.next(function(){ console.log("aaaaa"); return this;})
+        .next(function(){ console.log("bbbbbbbbb")})
+
+        d.call("wwwwww")
+
+        console.log(d)
+    </script>
+</body>
+</html>

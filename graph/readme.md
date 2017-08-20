@@ -24,6 +24,11 @@ Flot
 Gephi
 
 
+
+[progressings](https://p5js.org/libraries/)
+[grafica.js](https://github.com/jagracar/grafica.js)
+[fabricjs](http://fabricjs.com/docs/)
+
 [领域](https://www.zhihu.com/question/19929609)
 ===
 地图数据

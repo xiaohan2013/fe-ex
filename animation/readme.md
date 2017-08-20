@@ -25,9 +25,13 @@ animate.css
 textillate
 kute.js
 snabbt.js
+[mo.js](https://github.com/legomushroom/mojs)
 
 ### Javascript library to create physics-based animations 
 https://github.com/michaelvillar/dynamics.js#usage
 
 
 ## 缓动库
+
+
+[强大的JavaScript动画图形库mo.js](http://www.cnblogs.com/bigboyLin/p/5447947.html)
