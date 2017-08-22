@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <mask id="mask">
+            <text x="0" y="300" id="knockout-1" fill="white" style="font-size:120px; font-weight:bold; font-family: Blue Highway, Arial Black, sans-serif;">17打卡</text>
+            <text x="400" y="300" id="knockout-2" fill="white" style="font-size:90px; font-family: Blue Highway, Arial Black, sans-serif;">送“尼”好礼</text>
+        </mask>
+    </defs>
+    <use xlink:href="#knockout-1"/>
+    <use xlink:href="#knockout-2"/>
+</svg>
