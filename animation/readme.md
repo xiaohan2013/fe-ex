@@ -35,3 +35,6 @@ https://github.com/michaelvillar/dynamics.js#usage
 
 
 [强大的JavaScript动画图形库mo.js](http://www.cnblogs.com/bigboyLin/p/5447947.html)
+
+[jquery.transit：提供流畅CSS3变换和过渡效果的jQuery插件](http://hao.jobbole.com/jquery-transit/?utm_source=web.jobbole.com&utm_medium=sidebar-resources)
+[Velocity.js：加速JavaScript动画](http://hao.jobbole.com/velocity-js/?utm_source=web.jobbole.com&utm_medium=sidebar-resources)
