@@ -1,0 +1,7 @@
+/*去掉a,input,在移动浏览器中的默认样式（半透明灰色遮罩阴影—）*/
+a, button, input, optgroup, select, textarea{
+    -webkit-tap-highlight-color:reba(0,0,0,0);
+}
+
+
+/*禁止长按a, img 标签出现菜单栏*/

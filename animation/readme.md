@@ -38,3 +38,5 @@ https://github.com/michaelvillar/dynamics.js#usage
 
 [jquery.transit：提供流畅CSS3变换和过渡效果的jQuery插件](http://hao.jobbole.com/jquery-transit/?utm_source=web.jobbole.com&utm_medium=sidebar-resources)
 [Velocity.js：加速JavaScript动画](http://hao.jobbole.com/velocity-js/?utm_source=web.jobbole.com&utm_medium=sidebar-resources)
+
+

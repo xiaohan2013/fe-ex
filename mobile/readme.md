@@ -5,6 +5,10 @@
 ```
 
 
+[手机建站](http://www.lanrenmb.com/yidongyunying/shoujijianzhan/)
+
+
+[web移动端一些常用知识](http://www.cnblogs.com/alantao/p/5661213.html)
 
 
 
