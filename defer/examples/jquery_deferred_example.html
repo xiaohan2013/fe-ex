@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery测试deferred</title>
+</head>
+<body>
+    
+
+    <script type="text/javascript" src="../jquery-deferred.js"></script>
+
+    <script type="text/javascript">
+        var p = Promise._Deferred();
+        p.done(function(a){
+            console.log(a)
+            console.log("aaaaaaaaaaaaaaa")
+        })
+        console.log(p)
+        // p.resolve()
+        p.resolveWith(this, ["abcde"])
+    </script>
+</body>
+</html>
