@@ -1,0 +1,35 @@
+1、原因：移动端事件响应时会有默认的背景框颜色，a标签active时也有默认的背景框颜色。
+2、解决方法：
+(1) 移动端让背景框不显示
+
+[css] view plain copy
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);  
+-moz-tap-highlight-color:rgba(0, 0, 0, 0);  
+-ms-tap-highlight-color:rgba(0, 0, 0, 0);  
+-o-tap-highlight-color:rgba(0, 0, 0, 0);  
+tap-highlight-color:rgba(0, 0, 0, 0);  
+(2) pc端重置a标签active时的背景框颜色
+
+[css] view plain copy
+a:active{  
+  background-color: 需要设置的颜色;  
+}  
+
+
+3、附加小技巧：
+通常我们选中文字时的背景色是蓝色。我们可以用以下样式去设置网页的选中内容的样式：
+
+[css] view plain copy
+::selection {  
+    background: #FFF;  
+    color: #333;  
+}  
+::-moz-selection {  
+    background: #FFF;  
+    color: #333;  
+}  
+::-webkit-selection {  
+    background: #FFF;  
+    color: #333;  
+}  
+如果要去掉选中时的颜色，把background都置为none就行了。
