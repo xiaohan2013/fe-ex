@@ -1,0 +1,18 @@
+.cell{
+    display:table-cell;
+}
+.cell .align-center{
+    vertical-align: middle;
+}
+
+<div style="width:560px;height:42px;line-height:42px;border:1pxsolidblue;padding-left:20px;">
+<img style="margin-top:9px;position:absolute;display:inline-block;width:20px;height:20px;margin-right:6px;"src="images/icon_alert_major.png">
+  <span style="margin-left:26px">cirtical</span>  
+</div>  
+
+
+/*小图标文字对齐的终极解决方案*/
+/*http://www.cnblogs.com/zjx2011/p/5387638.html*/
+/*http://www.cnblogs.com/zjx2011/*/
+
+
