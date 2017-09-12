@@ -18,3 +18,15 @@ jsx的概念是由facebook提出的，与react一起出来的
 React JSX: Create ReactElements using JSX.
 jsx-transform: Configurable implementation of JSX decoupled from React.
 Babel: An ES2015 and beyond to ES of now transpiler with JSX support.
+
+
+## React如何将jsx转换为js函数
+[babel-plugin-transform-react-jsx](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-react-jsx)
+
+
+## Riot
+
+
+## Vue
+
+<!-- 这三者都有使用jsx的理念 -->
