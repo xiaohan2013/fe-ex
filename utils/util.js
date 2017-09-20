@@ -46,3 +46,8 @@ function encode_base64(input){
 
     return output;
 }
+
+
+function now(){
+    return +new Date();
+}
