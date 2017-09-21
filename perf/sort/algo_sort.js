@@ -99,17 +99,17 @@ var TimeLine = {
 }
 
 
-var list = generateRandom(10000000, 10000000000);
-console.log("==================================v1")
-sort_v1(1, 900, list);
-sort_v1(2, 10000, list);
-sort_v1(3, 5600, list);
-sort_v1(4, 999990, list);
-console.log("==================================v2")
-sort_v2(1, 900, list);
-sort_v2(2, 10000, list);
-sort_v2(3, 5600, list);
-sort_v2(4, 999990, list);
+// var list = generateRandom(10000000, 10000000000);
+// console.log("==================================v1")
+// sort_v1(1, 900, list);
+// sort_v1(2, 10000, list);
+// sort_v1(3, 5600, list);
+// sort_v1(4, 999990, list);
+// console.log("==================================v2")
+// sort_v2(1, 900, list);
+// sort_v2(2, 10000, list);
+// sort_v2(3, 5600, list);
+// sort_v2(4, 999990, list);
 
 // ==================================v1
 // ======>sort_v2===:  10244
@@ -121,6 +121,17 @@ sort_v2(4, 999990, list);
 // ======>sort_v1===:  0
 // ======>sort_v1===:  0
 // ======>sort_v1===:  2
+
+
+
+// var page = require('webpage').create();
+// page.open('http://www.baidu.com', function(status){
+//     console.log("status: ", status)
+//     if(status == "success"){
+//         page.render('')
+//     }
+// })
+
 
 phantom.exit(0);
 
