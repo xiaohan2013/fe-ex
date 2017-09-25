@@ -11,4 +11,14 @@
 [web移动端一些常用知识](http://www.cnblogs.com/alantao/p/5661213.html)
 
 
+### 一些成熟的UI库
+
+- 建库的思路和一般做法
+- 
+
+
+<!-- 可参考的 -->
+- [QMUI_Web](https://github.com/Tencent/QMUI_Web)
+
+
 
