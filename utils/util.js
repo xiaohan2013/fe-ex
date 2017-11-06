@@ -95,3 +95,98 @@ function Type(o) {
     }
     return OBJECT_TYPE;
 }
+
+
+__hasProp = {}.hasOwnProperty;
+// 继承
+__extends = function(child, parent) {
+  for (var key in parent) {
+    if (__hasProp.call(parent, key))
+      child[key] = parent[key];
+  }
+  function ctor() { 
+    this.constructor = child; 
+  } 
+  ctor.prototype = parent.prototype; 
+  child.prototype = new ctor(); 
+  child.__super__ = parent.prototype; 
+  return child; 
+};
+
+// 继承的标准写法
+Horse = (function(_super) {
+  __extends(Horse, _super);
+
+  function Horse() {
+    return Horse.__super__.constructor.apply(this, arguments);
+  }
+
+  Horse.prototype.move = function() {
+    alert("Galloping...");
+    return Horse.__super__.move.call(this, 45);
+  };
+
+  return Horse;
+
+})(Animal);
+
+// 获得一个对象
+Person = (function() {
+  function Person(options) {
+    this.name = options.name, this.age = options.age, this.height = options.height;
+  }
+
+  return Person;
+
+})();
+
+// 将this封装再一个闭包里边
+Account = function(customer, cart) {
+  this.customer = customer;
+  this.cart = cart;
+  return $('.shopping_cart').bind('click', (function(_this) {
+    return function(event) {
+      return _this.customer.purchase(_this.cart);
+    };
+  })(this));
+};
+
+// 
+(function(){
+
+  return function(){
+
+
+  }
+
+})()
+
+
+// 闭包套路
+// 1. 用一个立即执行的function
+// 
+
+countdown = (function() {
+  var _i, _results;
+  _results = [];
+  for (num = _i = 10; _i >= 1; num = --_i) {
+    _results.push(num);
+  }
+  return _results;
+})();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

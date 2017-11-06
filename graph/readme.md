@@ -22,6 +22,8 @@ jQuery Visualize
 ZingChart
 Flot
 Gephi
+G2(阿里)
+GCanvas
 
 
 

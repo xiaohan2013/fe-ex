@@ -40,3 +40,6 @@ https://github.com/michaelvillar/dynamics.js#usage
 [Velocity.js：加速JavaScript动画](http://hao.jobbole.com/velocity-js/?utm_source=web.jobbole.com&utm_medium=sidebar-resources)
 
 
+[一系列动画库](http://www.cnblogs.com/starof/p/4968769.html)
+
+
