@@ -17,6 +17,7 @@
     * 网格
     * 等分网格
     * 辅助类
+    * 分层显示[层叠规则和层叠上下文z-index](http://www.w3help.org/zh-cn/kb/013/)
 - 
 
 - 基础属性
@@ -42,4 +43,20 @@
     * 动画(animation)
     * 打印
     * 媒体查询
+
+
+- 动效
+[网页动画：JavaScript和CSS3 动效库大全](http://www.ui.cn/detail/16348.html)
+
+- UI
+
+
+## Sass
+<!-- npm install node-sass --registry=http://registry.npm.taobao.org -->
+### 解决 $ npm install node-sass --save-dev 失败的问题
+> $  npm install --save node-sass --registry=https://registry.npm.taobao.org --disturl=https://npm.taobao.org/dist --sass-binary-site=http://npm.taobao.org/mirrors/node-sass
+> --registry=https://registry.npm.taobao.org 淘宝npm包镜像
+> --disturl=https://npm.taobao.org/dist 淘宝node源码镜像，一些二进制包编译时用
+> --sass-binary-site=http://npm.taobao.org/mirrors/node-sass 这个才是node-sass镜像
+
 

@@ -13,4 +13,14 @@
 ## EventEmitter
 
 
+## 事件循环(EventLoop)
+[Tasks, microtasks, queues and schedules](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
+[event loop js事件循环 microtask macrotask](http://blog.csdn.net/sjn0503/article/details/76087631)
+[task-queue](https://html.spec.whatwg.org/multipage/webappapis.html#task-queue)
+
+> 每个浏览器的表现也许会不一样的
+> 
+
+
+
 
