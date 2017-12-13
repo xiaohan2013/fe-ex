@@ -51,3 +51,45 @@ Typesciprt内容点
 > any类型是十分有用的，它允许你在编译时可选择地包含或移除类型检查;
 > void类型的变量只能是，null和undefined;
 > never类型是那些总是会抛出异常或根本就不会有返回值的函数表达式或箭头函数表达式的返回值类型
+
+
+
+## 声明文件的定义
+
+
+Global Library 
+* Top-level var statements or function declarations
+* One or more assignments to window.someName
+* Assumptions that DOM primitives like document or window exist
+
+Module Library
+* Unconditional calls to require or define
+* Declarations like import * as a from 'b'; or export c;
+* Assignments to exports or module.exports
+
+There are three templates available for modules, *module.d.ts*, **module-class.d.ts** and *module-function.d.ts*.
+
+Module Plugin or UMD Plugin
+Use the module-plugin.d.ts template.
+Global Plugin
+Use the *global-plugin.d.ts* template.
+Use the *global-modifying-module.d.ts* template.
+
+## Consuming Dependencies
+/// <reference types="..." />
+1. Dependencies on Global Libraries(依赖全局库)
+/// <reference types="someLib" />
+function getThing(): someLib.thing;
+
+2. Dependencies on Modules(依赖模块)
+> import * as moment from "moment";
+function getThing(): moment;
+
+3. Dependencies on UMD libraries(依赖UMD库)
+From a Global Library
+/// <reference types="moment" />
+function getThing(): moment;
+
+From a Module or UMD Library
+import * as someLib from 'someLib';
+

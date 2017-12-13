@@ -263,12 +263,29 @@ function __extends(d, b) {
 // 科里化
 
 
-
-
-
-
-  
-
-
+// apply & call的性能
+// apply 转化的是内置的 call，并非 Function.prototype.call，感谢楼里同学提醒。
+// apply 最后还是转化成 call 来执行的，call 要更快毫无疑问，详细介绍见
+// 尽量使用call
+var optimizeCb = function(func, context, argCount) {
+    if (context === void 0) return func;
+    switch (argCount) {
+      case 1: return function(value) {
+        return func.call(context, value);
+      };
+      // The 2-parameter case has been omitted only because no current consumers
+      // made use of it.
+      case null:
+      case 3: return function(value, index, collection) {
+        return func.call(context, value, index, collection);
+      };
+      case 4: return function(accumulator, value, index, collection) {
+        return func.call(context, accumulator, value, index, collection);
+      };
+    }
+    return function() {
+      return func.apply(context, arguments);
+    };
+  };
 
 
