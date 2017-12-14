@@ -1,0 +1,23 @@
+{
+  "name": "lib-common-webpack",
+  "version": "1.0.0",
+  "description": "front-end common library",
+  "main": "index.js",
+  "maintainers": "tanyonxiaohan@gmail.com",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "common",
+    "library"
+  ],
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/xiaohan2013/lib-common-webpack.git"
+  },
+  "author": "xiaohan2013",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^3.10.0"
+  }
+}

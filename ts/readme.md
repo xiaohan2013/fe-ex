@@ -93,3 +93,18 @@ function getThing(): moment;
 From a Module or UMD Library
 import * as someLib from 'someLib';
 
+
+
+## including declarations in your npm package
+要是package的main字段有\*.js文件，还需要指定main declaration文件
+'''
+{
+    "name": "awesome",
+    "author": "Vandelay Industries",
+    "version": "1.0.0",
+    "main": "./lib/main.js",
+    "types": "./lib/main.d.ts" // 在这里的types也可以换成typings
+}
+'''
+
+
