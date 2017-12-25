@@ -23,3 +23,11 @@ exports.default = {}
 ## 模块化的工具
 * rollup
 * babel
+* webpack
+
+
+## webpack的loader和plugin
+模块的编译，加载和打包
+[写webpack的loader和plugin](http://blog.csdn.net/qiqingjin/article/details/71335943)
+[Webpack-源码四，从源码分析如何写一个loader](http://blog.csdn.net/qiqingjin/article/details/72496554)
+
