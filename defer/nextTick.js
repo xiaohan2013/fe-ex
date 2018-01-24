@@ -108,4 +108,5 @@ process.nextTick > promise.then > setTimeout > setImmediate
 "
 [理解 js 事件循环二 (macrotask 和 microtask)](https://juejin.im/entry/58332d560ce46300610e4bad)
 [Node.js 事件循环一: 浅析](https://github.com/ccforward/cc/issues/47)
+[Macrotask Queue和Microtask Quque](https://www.cnblogs.com/little-ab/p/7052767.html)
 "
