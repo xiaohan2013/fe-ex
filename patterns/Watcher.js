@@ -17,6 +17,9 @@ class Dep {
     addSub(sub:Watch):void{
         this.subs.push(sub)
     },
+    removeSub(){
+
+    }
     notify():void{
         this.subs.forEach(function(sub){
             sub.update()
@@ -29,3 +32,22 @@ class Dep {
 new Watch()
 // 订阅
 let dep = new Dep()
+
+
+
+// ================设计模式===================
+// <<Subject 被观察者>>
+//     -Vector, Observer
+//     +attach(Observer o)
+//     +detach(Observer o)
+//     +notify()
+
+// <<Observer 观察者>>
+//     +update()
+
+
+// <<Subject>>-------><<Observer>>
+
+
+
+
