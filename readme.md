@@ -42,3 +42,8 @@ Promise
 2. 广告
 3. 
 4. 
+
+
+meta标签汇总
+---
+[html头部meta标签汇总](https://www.jianshu.com/p/8d28e5130ab2)

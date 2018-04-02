@@ -2,7 +2,7 @@
 
 1. 打开chrome的远程调试功能
 
-
+https://nodejs.org/en/docs/inspector/
 > chrome://inspect/#devices
 
 2. debug模式运行nodejs程序
